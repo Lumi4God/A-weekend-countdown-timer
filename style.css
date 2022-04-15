@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    background: rgb(7, 0, 0);
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 50em;
+    min-width: 20em;
+    min-height: 300px;
+    border: 5px solid rgb(80, 77, 77);
+    background: rgb(218, 27, 27);
+}
+
+h1 {
+    font-size: 40px;
+    color: aliceblue;
+    border: 3px solid rgb(80, 77, 77);
+    padding: 10px;
+}
+
+p {
+    color: rgb(248, 242, 242);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+input{
+    border: 1px solid blue;
+    width: 220px;
+    height: 25px;
+}
+
+#btn{
+    width: 30px;
+    height: 30px;
+}
+
+#128525{
+    font-size: 5px;
+}
